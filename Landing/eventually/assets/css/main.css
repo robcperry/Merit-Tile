@@ -1083,13 +1083,13 @@ input, select, textarea {
 		#header h1 {
 			font-size: 2em;
 			position: relative;
-			margin-top: 10em !important
+			margin-top: 5em !important
 		}
 
 		#header p {
 			font-size: 1em;
 			position:static;
-			margin-top: 2em !important
+			margin-top: 1em !important
 		}
 
 	}
