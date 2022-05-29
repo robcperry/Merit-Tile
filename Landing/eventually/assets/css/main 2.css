@@ -373,7 +373,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #1cb495;
+		color: #e08c3d;
 		text-decoration: none;
 	}
 
@@ -528,6 +528,7 @@ input, select, textarea {
 
 		header br {
 			display: none;
+			position: relative;
 		}
 
 	}
@@ -536,6 +537,7 @@ input, select, textarea {
 
 		header br {
 			display: inline;
+			position: relative;
 		}
 
 	}
@@ -544,6 +546,7 @@ input, select, textarea {
 
 		header br {
 			display: none;
+			position: relative;
 		}
 
 	}
@@ -679,7 +682,7 @@ input, select, textarea {
 			}
 
 			form .message.success {
-				color: #1cb495;
+				color: #e08c3d;
 			}
 
 				form .message.success:before {
@@ -841,7 +844,7 @@ input, select, textarea {
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #db7500;
 		}
 
 	select {
@@ -938,16 +941,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #1cb495;
-			border-color: #1cb495;
+			background: #e08c3d;
+			border-color: #e08c3d;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1cb495;
-			box-shadow: 0 0 0 2px #1cb495;
+			border-color:#e08c3d;
+			box-shadow: 0 0 0 2px #e08c3d;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -998,7 +1001,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #db7500;
+		background-color: #e08c3d;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -1059,11 +1062,13 @@ input, select, textarea {
 	#header h1 {
 		font-size: 3.25em;
 		margin: 0 0 0.55em 0;
+		position: re;
 	}
 
 	#header p {
 		font-size: 1.35em;
 		line-height: 1.65em;
+		position: relative;
 	}
 
 	#header a {
@@ -1074,10 +1079,12 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 2em;
+			position: relative;
 		}
 
 		#header p {
 			font-size: 1em;
+			position: relative;
 		}
 
 	}
@@ -1086,6 +1093,7 @@ input, select, textarea {
 
 		#header {
 			margin: 0 0 1em 0;
+		
 		}
 
 	}
@@ -1097,6 +1105,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: wrap;
 		
 		
 		
@@ -1108,12 +1117,13 @@ input, select, textarea {
 
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
-		#signup-form input[type="email"] {
+		#signup-form input[type="email"],
+		#signup-form input[type="text"] {
 			width: 18em;
 		}
 
 		#signup-form > * {
-			margin: 0 0 3em 1em;
+			margin: 0 0 5em 1em;
 		}
 
 		#signup-form > :first-child {
@@ -1131,9 +1141,10 @@ input, select, textarea {
 
 				#signup-form input[type="type"],
 				#signup-form input[type="password"],
-				#signup-form input[type="email"] {
+				#signup-form input[type="email"],
+				#signup-form input[type="text"] {
 					width: 100%;
-					height: 100%;
+					
 				}
 
 				#signup-form > * {
@@ -1163,7 +1174,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		left: 4em;
 		opacity: 0.5;
-		position: absolute;
+		position: relative;
 	}
 
 		#footer .icons {
