@@ -1081,13 +1081,13 @@ input, select, textarea {
 		#header h1 {
 			font-size: 2em;
 			position: relative;
-			margin-top: 10em !important
+			margin-top: 46px !important
 		}
 
 		#header p {
 			font-size: 1em;
 			position:static;
-			margin-top: em !important
+			margin-top: 46px !important
 		}
 
 	}
@@ -1175,11 +1175,10 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease-in-out;
 		transition: opacity 0.5s ease-in-out;
 		bottom: 4em;
-		color: rgba(255, 255, 255, 0.75);
-		margin-top: 5em;
+		color: rgba(255, 255, 255, 0.5);
+		left: 4em;
 		opacity: 0.5;
 		position: relative;
-		text-align: center;
 	}
 
 		#footer .icons {

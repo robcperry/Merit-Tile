@@ -142,7 +142,9 @@ input, select, textarea {
 			transition: none !important;
 		}
 		#hgtv{
-			text-align: center;
+			text-align:center;
+			margin-top: -4em;
+			
 		}
 
 		body > * {
@@ -373,7 +375,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #e08c3d;
+		color: #db7500;
 		text-decoration: none;
 	}
 
@@ -411,7 +413,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.5em;
-		line-height: 1.25em;
+		line-height: 1em;
 	}
 
 	h2 {
@@ -499,7 +501,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.709);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -962,7 +964,7 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgb(234, 85, 27) !important;
+		color: #db7500 !important;
 		opacity: 1.0;
 		
 	}
@@ -1002,7 +1004,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #e08c3d;
+		background-color:#db7500;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -1063,7 +1065,7 @@ input, select, textarea {
 	#header h1 {
 		font-size: 3.25em;
 		margin: 0 0 0.55em 0;
-		position: re;
+		position: relative;
 	}
 
 	#header p {
@@ -1081,11 +1083,13 @@ input, select, textarea {
 		#header h1 {
 			font-size: 2em;
 			position: relative;
+			margin-top: 10em !important
 		}
 
 		#header p {
 			font-size: 1em;
-			position: relative;
+			position:static;
+			margin-top: 2em !important
 		}
 
 	}
@@ -1094,6 +1098,7 @@ input, select, textarea {
 
 		#header {
 			margin: 0 0 1em 0;
+			position: relative;
 		
 		}
 
@@ -1124,7 +1129,7 @@ input, select, textarea {
 		}
 
 		#signup-form > * {
-			margin: 0 0 5em 1em;
+			margin: 0 0 5em 3em;
 		}
 
 		#signup-form > :first-child {
@@ -1172,10 +1177,12 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease-in-out;
 		transition: opacity 0.5s ease-in-out;
 		bottom: 4em;
-		color: rgba(255, 255, 255, 0.5);
-		left: 4em;
+		color: rgba(255, 255, 255, 0.75);
+		margin-top: 3em;
 		opacity: 0.5;
 		position: relative;
+		text-align: center;
+		
 	}
 
 		#footer .icons {
